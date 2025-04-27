@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Demo",
-  description: "Demo desc",
+  title: "PapaJohns | Pizza",
+  description: "world most popular Pizza Restaurants",
 };
 
 export default function RootLayout({ children }) {
