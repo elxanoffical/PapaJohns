@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 
 export default function AdminPanel() {
-  
   const router = useRouter();
   const [products, setProducts] = useState([]);
 

@@ -43,10 +43,9 @@ export async function POST(request) {
 
 export async function GET(request) {
   try {
-
     await connectDB();
     const products = await Product.find();
-    
+
     if (!products) {
       return NextResponse.json({ mes: "Not Found" }, { status: 404 });
     }
